@@ -4,12 +4,12 @@
 Summary:	Pretty printing of data structures
 Summary(pl):	£adne wy¶wietlanie struktur danych
 Name:		perl-Data-Dump
-Version:	1.00
+Version:	1.01
 Release:	1
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	32aa75d5e349ed50bb8c459d69d5f0e4
+# Source0-md5:	b544d5ad5db100c2ebda7a17bd408c9c
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
