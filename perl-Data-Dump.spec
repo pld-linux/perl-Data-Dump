@@ -1,15 +1,15 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Dump
-Summary:	Data::Dump perl module - pretty printing of data structures
-Summary(pl):	Modu³ perla Data::Dump - do ³adnego wy¶wietlania struktur danych
+Summary:	Pretty printing of data structures
+Summary(pl):	£adne wy¶wietlanie struktur danych
 Name:		perl-Data-Dump
-Version:	0.04
-Release:	2
+Version:	1.00
+Release:	1
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f91b7179113af49137e1e501eafcb57f
+# Source0-md5:	32aa75d5e349ed50bb8c459d69d5f0e4
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -38,6 +38,7 @@ by by³ ³atwo czytelny.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+%{__make} test
 
 %install
 rm -rf $RPM_BUILD_ROOT
