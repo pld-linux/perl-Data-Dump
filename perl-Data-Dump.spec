@@ -5,7 +5,7 @@ Summary:	Data::Dump perl module - pretty printing of data structures
 Summary(pl):	Modu³ perla Data::Dump - do ³adnego wy¶wietlania struktur danych
 Name:		perl-Data-Dump
 Version:	0.04
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
