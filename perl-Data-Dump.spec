@@ -6,7 +6,8 @@ Summary(pl):	Data::Dump - ³adne wy¶wietlanie struktur danych
 Name:		perl-Data-Dump
 Version:	1.03
 Release:	1
-License:	Artistic or GPL
+# same as perl
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d94b8a515affb051ff7952e578e9f3a5
