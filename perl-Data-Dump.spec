@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	Dump
+%define		pdir	Data
+%define		pnam	Dump
 Summary:	Data::Dump - pretty printing of data structures
 Summary(pl):	Data::Dump - ³adne wy¶wietlanie struktur danych
 Name:		perl-Data-Dump
