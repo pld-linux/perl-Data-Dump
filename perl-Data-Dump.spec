@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package contains the Data::Dump module. It is a simplification of
 Sarathy's Data::Dumper. This module provides a single function called
 dump() that takes a list of values as argument and produce a string as
-result. The string contains perl code that when evaled will produce a
+result. The string contains Perl code that when evaled will produce a
 deep copy of the original arguments. The string is formatted for easy
 reading.
 
@@ -28,7 +28,7 @@ reading.
 Ten pakiet zawiera modu³ Data::Dump. Jest on uproszczeniem modu³u
 Data::Dumper Sarathy'ego. Ten modu³ dostarcza pojedyncz± funkcjê o
 nazwie dump(), która przyjmuje jako argument listê warto¶ci i zwraca
-w wyniku ci±g znaków. Ci±g ten zawiera perlowy kod, który po wykonaniu
+w wyniku ci±g znaków. Ci±g ten zawiera kod perlowy, który po wykonaniu
 zwraca kopiê oryginalnych argumentów. Ci±g ten jest sformatowany tak,
 by by³ ³atwo czytelny.
 
