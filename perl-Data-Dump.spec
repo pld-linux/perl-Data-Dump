@@ -2,7 +2,7 @@
 %define		pdir	Data
 %define		pnam	Dump
 Summary:	Data::Dump - pretty printing of data structures
-Summary(pl):	Data::Dump - ³adne wy¶wietlanie struktur danych
+Summary(pl.UTF-8):   Data::Dump - Å‚adne wyÅ›wietlanie struktur danych
 Name:		perl-Data-Dump
 Version:	1.06
 Release:	1
@@ -24,13 +24,13 @@ result. The string contains Perl code that when evaled will produce a
 deep copy of the original arguments. The string is formatted for easy
 reading.
 
-%description -l pl
-Ten pakiet zawiera modu³ Data::Dump. Jest on uproszczeniem modu³u
-Data::Dumper Sarathy'ego. Ten modu³ dostarcza pojedyncz± funkcjê o
-nazwie dump(), która przyjmuje jako argument listê warto¶ci i zwraca
-w wyniku ci±g znaków. Ci±g ten zawiera kod perlowy, który po wykonaniu
-zwraca kopiê oryginalnych argumentów. Ci±g ten jest sformatowany tak,
-by by³ ³atwo czytelny.
+%description -l pl.UTF-8
+Ten pakiet zawiera moduÅ‚ Data::Dump. Jest on uproszczeniem moduÅ‚u
+Data::Dumper Sarathy'ego. Ten moduÅ‚ dostarcza pojedynczÄ… funkcjÄ™ o
+nazwie dump(), ktÃ³ra przyjmuje jako argument listÄ™ wartoÅ›ci i zwraca
+w wyniku ciÄ…g znakÃ³w. CiÄ…g ten zawiera kod perlowy, ktÃ³ry po wykonaniu
+zwraca kopiÄ™ oryginalnych argumentÃ³w. CiÄ…g ten jest sformatowany tak,
+by byÅ‚ Å‚atwo czytelny.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
