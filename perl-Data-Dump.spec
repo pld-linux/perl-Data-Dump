@@ -2,7 +2,7 @@
 %define		pdir	Data
 %define		pnam	Dump
 Summary:	Data::Dump - pretty printing of data structures
-Summary(pl.UTF-8):   Data::Dump - ładne wyświetlanie struktur danych
+Summary(pl.UTF-8):	Data::Dump - ładne wyświetlanie struktur danych
 Name:		perl-Data-Dump
 Version:	1.06
 Release:	1
