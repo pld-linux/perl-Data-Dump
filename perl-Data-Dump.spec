@@ -5,7 +5,7 @@ Summary:	Data::Dump - pretty printing of data structures
 Summary(pl.UTF-8):	Data::Dump - ładne wyświetlanie struktur danych
 Name:		perl-Data-Dump
 Version:	1.08
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
