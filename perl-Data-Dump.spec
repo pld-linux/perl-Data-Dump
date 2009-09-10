@@ -8,13 +8,12 @@
 Summary:	Data::Dump - pretty printing of data structures
 Summary(pl.UTF-8):	Data::Dump - ładne wyświetlanie struktur danych
 Name:		perl-Data-Dump
-Version:	1.14
+Version:	1.15
 Release:	1
-# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Data/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b4f4beb85058cff872f957aee2fbaf08
+# Source0-md5:	775729739a599dc5fbf918dc7cffe9f4
 URL:		http://search.cpan.org/dist/Data-Dump/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
