@@ -12,7 +12,7 @@ Version:	1.21
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Data/GAAS/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Data/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5de5616e29fd0626a8a5966a2be85628
 URL:		http://search.cpan.org/dist/Data-Dump/
 BuildRequires:	perl-devel >= 1:5.8.0
